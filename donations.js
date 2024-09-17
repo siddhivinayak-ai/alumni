@@ -36,7 +36,7 @@ const events = [
     donateLink: '#'
 },
 {
-  image: 'donationimg/regatta.png',
+  image: 'donationimg/regatta.PNG',
   name: 'Regatta-The Legacy',
   description: 'Oldest Running fest scince ',
   viewLink: '#',
