@@ -11,7 +11,7 @@ const mentors = [
       instagram: 'https://www.instagram.com/johndoe'
   },
   {
-      image: 'mentorship/2.png',
+      image: 'mentorship/2.PNG',
       name: 'Raj Mali',
       batchYear: '2019',
       branch: 'Information Technology',
@@ -41,7 +41,7 @@ const mentors = [
     instagram: 'https://www.instagram.com/janesmith'
 },
 {
-  image: 'mentorship/5.png',
+  image: 'mentorship/5.PNG',
   name: 'Jiten Topiwala',
   batchYear: '2019',
   branch: 'Information Technology',
@@ -61,7 +61,7 @@ const mentors = [
   instagram: 'https://www.instagram.com/janesmith'
 },
 {
-  image: 'mentorship/7.png',
+  image: 'mentorship/7.PNG',
   name: 'Anirudha Gaikwad ',
   batchYear: '2019',
   branch: 'Information Technology',
