@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: #172a45;
+  color: #fff;
+  position: relative;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4b89dc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #72a6ff;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.profile-container {
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #00c8ff;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-branch, .profile-email {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Form section - initially hidden */
+.form-section {
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  header {
+    padding: 15px;
+  }
+
+  .profile-section {
+    padding: 20px;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+  }
+
+  .profile-branch, .profile-email {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #172a45;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  z-index: 10;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.bottom-navbar a {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.bottom-navbar a i {
+  font-size: 24px;
+}
+
+.bottom-navbar a:hover {
+  color: #00b7ff;
+  transform: translateY(-5px);
+}
+
+.bottom-navbar a.active {
+  color: #00b7ff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  
+
+  .bottom-navbar a {
+      font-size: 12px;
+  }
+
+  .bottom-navbar a i {
+      font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#registration {
+  max-width: 500px;
+  width: 90%;
+  background-color: #112d42;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+ text-align: center;
+}
+
+/* Heading */
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #72a6ff;
+}
+
+/* Input Fields */
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #0a1e32;
+  border: 2px solid #72a6ff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder {
+  color: #d3d3d3;
+}
+
+input:focus {
+  outline: none;
+  border-color: #00b7ff;
+}
+
+/* Checkbox Group */
+.checkboxes {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.checkboxes label {
+  display: block;
+  font-size: 14px;
+  margin: 5px 0;
+  color: #c5e1ff;
+}
+
+.checkboxes input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #00b7ff;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #4b89dc;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #72a6ff;
+}
+
+/* Contact Info Section */
+.contact-info {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.contact-info a {
+  color: #72a6ff;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: #fff;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #registration {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  input[type="text"], input[type="email"] {
+    font-size: 14px;
+  }
+
+  button[type="submit"] {
+    font-size: 14px;
+  }
+}
+
+
+
+
+

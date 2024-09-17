@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <header>
+    <button id="register-btn">Register</button>
+  </header>
+
+  <section class="profile-section">
+    <div class="profile-container">
+      <img src="projects/profile.jpg" alt="Profile Picture" class="profile-img">
+      <h2 class="profile-name">Your Name</h2>
+      <p class="profile-branch">Branch: Computer Science</p>
+      <p class="profile-email">Email: example123@gmail.cpm</p>
+    </div>
+  </section>
+
+  <!-- <section class="form-section hidden" id="form-section">
+    <h3>Register</h3>
+    <iframe id="google-form" src="" width="100%" height="800" frameborder="0"></iframe>
+  </section> -->
+ <div class="register">
+   <section id="registration">
+    <h2>Register</h2>
+    <form id="registration-form" action="https://script.google.com/macros/s/AKfycbxv9gp9SZJkHuEqXWLYQpHAuXasGiOddu9zBmDQPLIw/exec" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="phone" placeholder="Your Phone" required />
+      <input type="text" name="address" placeholder="Your Address" required />
+      
+      <label for="interests">Area of Interest:</label>
+      <div class="checkboxes">
+        <label><input type="checkbox" name="interests" value="Web Development" /> CS</label>
+        <label><input type="checkbox" name="interests" value="App Development" /> Aerial Robotics</label>
+        <label><input type="checkbox" name="interests" value="UI/UX Design" /> Data Science</label>
+        <label><input type="checkbox" name="interests" value="Data Science" />Robotics</label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+   
+   </section>
+   
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+
+  <div id="bottom-navbar" class="bottom-navbar">
+    <a href="index.html" ><i class="ri-home-line"></i> Home</a>
+    <a href="donations.html" ><i class="ri-hand-heart-line"></i>Support</a>
+    <a href="projects.html"><i class="ri-folder-line"></i> Projects</a>
+    <a href="guidance.html"><i class="ri-compass-line"></i></i>Guidance</a>
+    <a href="profile.html" class="active"><i class="ri-user-line"></i>Profile</a>
+</div>
+
+  <script src="profile.js"></script>
+</body>
+</html>
