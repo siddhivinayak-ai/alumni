@@ -128,8 +128,7 @@ header {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   .center-content h1 {
-      font-size: 55px;
-  }
+      font-size: 46px;}
 
   .navbar i {
       font-size: 20px;
